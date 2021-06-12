@@ -11,7 +11,7 @@ https://google-webfonts-helper.herokuapp.com/fonts/raleway?subsets=latin
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/raleway-v19-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/raleway-v19-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('fonts/raleway-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('fonts/raleway-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
@@ -233,7 +233,7 @@ ul{
     font-size: 20px;
     border : 1px solid #F2F2F2;
     border-radius: 10px 0px 0px 10px;
-    background: #F2F2F2;
+   /* background: #F2F2F2;*/
     padding: 10px 10px 10px 10px;
     margin: 0px;
     display: flex;
@@ -265,7 +265,7 @@ ul{
 .bouton-de-recherche-pc{
     border: 1px solid #0065FC;
     border-radius: 0px 10px 10px 0px;
-    background: #0065FC;
+    background: #0065FC; 
     padding: 10px 10px 10px 10px;
     margin: 0px;
     width: auto;
