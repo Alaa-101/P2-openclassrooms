@@ -19,8 +19,6 @@ https://google-webfonts-helper.herokuapp.com/fonts/raleway?subsets=latin
          url('fonts/raleway-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('fonts/raleway-v19-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
   }
-
-
 /* css sytyle pour html */
 html{
     font-size: 15px;
@@ -29,7 +27,6 @@ html{
     width: auto;
     height: auto;
 }
-
 /*   l'affichage de code  */
 body{
     font-size: 1em; /* 1em = 15px */
@@ -40,15 +37,10 @@ body{
     padding: 0px;
     margin: 0px;
 }
-
 .big-rapper{
     border: none;
     background: none;
 }
-
-
-
-
 /* style du logo reservia */
 .Reservia-Logo{
     width: 10%;
@@ -57,13 +49,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 20px;
 }
-
-
-
-
-
 /* le menu de navigation*/
-
 nav{
     border: none;
     width: 85%;
@@ -170,12 +156,7 @@ nav{
     margin: 10px 10px 10px 10px;
     padding: 0px 0px 0px 0px;
 }
-
-
-
 /* style de premier h1 */
-
-
 .Premier-titre{
     border: none;
     background: none;
@@ -185,9 +166,6 @@ nav{
     padding: 10px 10px 10px 20px;
     width: auto;
 }
-
-
-
 /* le sous titre */
 .sous-titre{
     background:none;
@@ -198,24 +176,15 @@ nav{
     padding: 20px 0px 0px 20px;
     margin: 10px 10px 10px 10px;
 }
-
-
-
 /* Retirer le soulignement des liens <a> */
 a{
     text-decoration:none; /* Supprimer le soulignement */
     color: black; /* Liens de couleur noir */
 }
-
-
-
 /* Retirer les puces des listes <ul> */
 ul{
     list-style-type: none; /* Supprimer les puces */
 }
-
-
-
 /* BARRE DE RECHERCHE */
 /* Cadrage de la barre de recherche */ /* container */
 .Bar-de-recherche{
@@ -294,12 +263,7 @@ ul{
     display: none; /* absent en mode desktop */
     cursor: pointer;/*La propriété CSS cursor définit la forme du curseur (s'il y en a un) lorsque le pointeur est au-dessus de l'élément.*/
 }
-
-
-
 /* FILTRES / la partier qui aprés la moteur de recherche */
-
-
 /* 1. Titre d'ensemble des filtres */
 .titre-Filtres{
     font-weight: bold;
@@ -346,7 +310,6 @@ ul{
     background: #DEEBFF;
     border-color: pink; /* bonus */
 }
-
 /* 5. Mise en forme du texte : span contenant le titre de chaque filtre */
 .mettre-en-gras{
     border: none;
@@ -356,7 +319,6 @@ ul{
     width: auto;
     height: auto;
 }
-
 /* 6. Modifier l'apparence des icones des filtres */
 .icone-filtre{
     font-size: 15px;
@@ -371,10 +333,6 @@ ul{
     padding: 10px;
     margin: 0px 0px 0px 0px;
 }
-
-
-
-
 /* 1. Paragraphe d'information */
 .p-information{
     border: none;
@@ -412,13 +370,6 @@ ul{
     width: auto;
     height: auto;
 }
-
-
-
-
-
-
-
 /* SECTION : HEBERGEMENTS A MARSEILLE /6 images */ 
 /* 1. Optimiser le cadre de la section */
 .Hébergements-à-Marseille
@@ -434,7 +385,6 @@ ul{
     padding: 0px;
     margin: 0px;
 }
-
 /*  2. Encadrer et placer le titre h1 de la section hebergements a marseille */
 /*H1 */
 .header-hebergements{
@@ -454,7 +404,6 @@ ul{
     padding: 0px;
     margin: 10px;
 }
-
 /* 3. Cadre de la figure */
 .hotel-a-marseille{
     border: 5px solid white;
@@ -465,7 +414,6 @@ ul{
     padding: 0px;
     margin: 20px 0px 20px 0px;
 }
-
 /* 4. Optimiser l'image dans la figure */
 .image-hotel{
     border: none;
@@ -556,9 +504,6 @@ ul{
     padding: 0px;
     margin: 10px;
 }
-
-
-
 /* LES PLUS POPULAIRES */
 /* 1. Encadrer la section : les plus populaires */
 .Les-plus-populaires{
@@ -668,10 +613,6 @@ ul{
     width: 100%;
     height: auto;
 }
-
-
-
-
 /* fusion-hebergements et populaires */
 .fusion-hebergements-populaires{
     border: none;
@@ -685,13 +626,6 @@ ul{
     align-items: center;
     flex-wrap: wrap;
 }
-
-
-
-
-
-
-
 /* La partie ACTIVITES A MARSEILLE */
 /* 1. Encadrer les activités */
 .Activités-à-Marseille{
@@ -752,8 +686,6 @@ ul{
     margin: 0px;
     object-fit: cover;
 }
-
-
 /* Image 11 : Figure et Image */
 .figure-des-activites-image-11{
     border: 5px solid #F2F2F2;
@@ -791,8 +723,6 @@ ul{
     margin: 0px;
     object-fit: cover;
 }
-
-
 /* la partie de fusion des images par bloc */
 /* Fusion les Images 11 et 12 */ /* Fusion des Images 14 et 15 */
 /* fusion des images par bloc */
@@ -820,9 +750,6 @@ ul{
     padding: 0px;
     margin: 0px;
 }
-
-
-
 /* Image 14 : Figure et Image */
 .figure-des-activites-image-14{
     border: 5px solid #F2F2F2;
@@ -860,8 +787,6 @@ ul{
     margin: 0px;
     object-fit: cover;
 }
-
-
 /* Figcaption : legende-activites */
 .legende-activites{
     border: none;
@@ -919,15 +844,6 @@ ul{
     padding: 0px;
     margin: 20px 0px 0px 10px;
 }
-
-
-
-
-
-
-
-
-
 /* la partie mobile (media c'est pour les smartphon  */
 
 @media screen and (max-width:1023px){
@@ -957,17 +873,14 @@ ul{
         width: 100%;
         height: auto;
         font-size: 1em;
-    }
-    
-
-    
+    }   
     /*Hebergements et Activites /Container */
     .container-menu{
         border: none;
         padding: 0px;
         margin-top: 50px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 100%;
         height: auto;
         font-size: 1.5em;
@@ -993,7 +906,7 @@ ul{
     /* Cadrer / Activites */
     .activites{
         border-bottom: 5px solid #F2F2F2;
-        padding: 0px;
+        padding: 40px;
         margin-left: 0px;
         width: 50%;
         height: auto;
@@ -1022,8 +935,6 @@ ul{
         border: none;
         background: #DEEBFF;
     }
-
-
     /* Bar-de-recherche */
     .Bar-de-recherche{
         background: none;
@@ -1034,9 +945,6 @@ ul{
     .bouton-de-recherche-mobile{
         display: inline;
     }
-
-
-
     /* en media query */
     /* container de 'hebergements' et de 'populaires' */
     .fusion-hebergements-populaires{
@@ -1074,9 +982,6 @@ ul{
         width: 100%;
         height: 60%;
     }
-
-
-
     /* en media query */
     /* container de 'populaires' */
     .Les-plus-populaires{
@@ -1095,9 +1000,6 @@ ul{
         width: 35%;
         height: auto;
     }
-
-
-
     /* en media query */
     /* ACTIVITES A MARSEILLE */
     .Activités-à-Marseille{
@@ -1110,22 +1012,9 @@ ul{
         justify-content: space-around;
         flex-wrap: wrap;
     }
-
     /* fin media query 1023px  */
 }
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:800px){
-
-
     /* container de 'hebergements' */
     .Hébergements-à-Marseille{
         width: auto;
@@ -1357,7 +1246,6 @@ ul{
         padding: 0px;
         margin-top: 20px;
     }
-
     /* Optimisation de l'espace */
     .hebergements{
         border-bottom: 5px solid #F2F2F2;
@@ -1372,7 +1260,7 @@ ul{
     }
     .activites{
         border-bottom: 5px solid #F2F2F2;
-        padding: 0px;
+        padding: 40px;
         margin-left: 0px;
         width: auto;
         height: auto;
